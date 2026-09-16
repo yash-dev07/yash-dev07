@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm [Your Name]</h1>
+<h1 align="center">Hi 👋, I'm [Yash Patel ]</h1>
 <h3 align="center">Building infrastructure that quietly makes things work — scheduling, HR, fintech, and everything in between</h3>
 
 <p align="center">
