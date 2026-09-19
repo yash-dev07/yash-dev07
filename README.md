@@ -1,139 +1,91 @@
-<!-- ================= ANIMATED HEADER BANNER ================= -->
+<!-- ================= 3D CYLINDER HEADER ================= -->
 <p align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,50:FF1493,100:00BFFF&height=260&section=header&text=Hi%20There,%20I'm%20%5BYour%20Name%5D&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Engineer%20%7C%20TypeScript%20%2B%20Java%20%7C%20Systems%20%26%20AI&descAlignY=55&descSize=18"/>
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=Yash%20Patel&fontSize=65&fontColor=00BFFF&animation=twinkling&fontAlignY=35&desc=Software%20Engineer%20%7C%20Algorithms%20%7C%20System%20Design&descAlignY=55&descSize=20"/>
 </p>
 
-<!-- ================= PROFILE VIEWS + TYPING ================= -->
+<!-- ================= 3D PLASTIC METRICS ================= -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=your-username&label=Profile%20Views&color=ff1493&style=for-the-badge" alt="profile views"/>
-  <img src="https://img.shields.io/github/followers/your-username?label=Followers&style=for-the-badge&color=8A2BE2" alt="followers"/>
+  <img src="https://komarev.com/ghpvc/?username=yash-patel&label=PROFILE+VIEWS&color=0f0c29&style=plastic" alt="views"/>
+  <img src="https://img.shields.io/github/followers/yash-patel?label=FOLLOWERS&style=plastic&color=302b63" alt="followers"/>
+  <img src="https://img.shields.io/github/stars/yash-patel?label=STARS&style=plastic&color=24243e" alt="stars"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=FF1493,8A2BE2,00BFFF&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Building+Scheduling+Infrastructure+%E2%9A%99%EF%B8%8F;Shipping+AI-Powered+Tools+%F0%9F%A4%96;Designing+HRMS+%26+Fintech+Systems+%F0%9F%92%B0;Grinding+DSA+%2B+System+Design+%F0%9F%A7%A9" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=24&duration=3000&pause=1000&color=00BFFF,FF1493,8A2BE2&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=80&lines=Mastering+Dynamic+Programming+%26+DSA+%E2%9A%94%EF%B8%8F;Building+with+Java,+C%2B%2B,+%26+Python+%F0%9F%92%BB;Exploring+Game+Theory+%26+Distributed+Systems+%F0%9F%8C%90" alt="Typing SVG" />
 </p>
 
-<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" width="100%">
+<br>
 
-<!-- ================= SOCIAL BADGES ================= -->
-<p align="center">
-  <a href="https://linkedin.com/in/your-linkedin">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=8A2BE2"/>
-  </a>
-  <a href="https://twitter.com/your-handle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=FF1493"/>
-  </a>
-  <a href="mailto:you@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=00BFFF"/>
-  </a>
-  <a href="https://your-portfolio.dev">
-    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white&labelColor=8A2BE2"/>
-  </a>
-</p>
+> *“A moment of pain is worth a lifetime of glory.”*
+
+<br>
 
 ---
 
-## 🧭 About Me
+## 🌌 The Command Center
 
-<img align="right" width="380" src="https://raw.githubusercontent.com/aritraroy/aritraroy/master/code.gif">
+<!-- 3D INTERACTIVE GLOBE CENTERED ON BENGALURU -->
+<a href="https://github.com/yash-patel">
+  <img align="right" width="400" src="https://github-readme-globe.vercel.app/api?color=00BFFF&center=12.9716,77.5946&zoom=1.2" alt="3D Rotating Globe">
+</a>
 
-- 🔭 Currently building **scheduling infrastructure**, contributing to a fork of [Cal.com](https://github.com/calcom/cal.com)
-- 🤖 Shipping practical **AI-powered tools**, like an AI background remover
-- 🏢 Built an **HRMS platform** (Dayflow-hrms) to solve real workplace problems
-- 💰 Exploring **fintech infrastructure** through Apache Fineract
-- 🧩 Actively studying **system design** and grinding **DSA/LeetCode**
-- 🌱 Always learning, always shipping
-- ⚡ Fun fact: I'd rather refactor than sleep
+**System Specifications & Current Objectives:**
+
+*   **📍 Location Base:** Bengaluru, India
+*   **🏛️ Headquarters:** Undergrad at Nitte Meenakshi Institute of Technology (NMIT)
+*   **⚙️ Core Operations:** Competitive Programming, Multithreading, Algorithmic Problem Solving
+*   **🏆 Field Experience:** Google India Hackathon, Odoo x NMIT Hackathon '26, Intel Unnati Training
+*   **🛠️ Current Arsenal:** Writing optimized C++, building robust Java systems, and scripting in Python.
 
 <br clear="both">
 
 ---
 
-## 🛠️ Tech Arsenal
+## 🧊 The Tech Matrix
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,java,js,nodejs,react,docker,git,github,postgres,mongodb,redis,aws&theme=dark" />
-</p>
-
-<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" width="100%">
-
-## 🚀 Featured Projects
-
-<table align="center">
+<table align="center" style="background-color: #0d1117; border-radius: 15px;">
   <tr>
-    <td width="50%">
-      <a href="https://github.com/your-username/cal">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=your-username&repo=cal&theme=tokyonight&hide_border=true&bg_color=1a1b27&border_color=8A2BE2" />
-      </a>
+    <td align="center" width="25%">
+      <b>Core Languages</b><br><br>
+      <img src="https://skillicons.dev/icons?i=java,cpp,python&theme=dark" />
     </td>
-    <td width="50%">
-      <a href="https://github.com/your-username/snapcut-ai-background-remover">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=your-username&repo=snapcut-ai-background-remover&theme=tokyonight&hide_border=true&bg_color=1a1b27&border_color=FF1493" />
-      </a>
+    <td align="center" width="25%">
+      <b>Databases & Systems</b><br><br>
+      <img src="https://skillicons.dev/icons?i=mysql,postgres,redis&theme=dark" />
     </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/your-username/Dayflow-hrms">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=your-username&repo=Dayflow-hrms&theme=tokyonight&hide_border=true&bg_color=1a1b27&border_color=00BFFF" />
-      </a>
-    </td>
-    <td width="50%">
-      <a href="https://github.com/your-username/system-design">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=your-username&repo=system-design&theme=tokyonight&hide_border=true&bg_color=1a1b27&border_color=8A2BE2" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <a href="https://github.com/your-username/fineract">
-        <img src="https://github-readme-stats.vercel.app/api/pin/?username=your-username&repo=fineract&theme=tokyonight&hide_border=true&bg_color=1a1b27&border_color=FF1493" />
-      </a>
-    </td>
-    <td width="50%" align="center">
-      <b>🔒 Leetcode</b><br/>
-      <sub>Private collection of solved problems</sub>
+    <td align="center" width="25%">
+      <b>Tools & Deployment</b><br><br>
+      <img src="https://skillicons.dev/icons?i=git,github,docker,aws&theme=dark" />
     </td>
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" width="100%">
+---
 
-## 📊 GitHub Analytics
+## 🏙️ 3D Contribution City
 
-<p align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=FF1493&icon_color=8A2BE2&text_color=ffffff" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-username&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b27&title_color=00BFFF&text_color=ffffff" />
-</p>
+*(This replaces the snake with a 3D isometric representation of your GitHub commits, making your profile look like a glowing sci-fi city).*
 
 <p align="center">
-  <img width="80%" src="https://github-readme-streak-stats.herokuapp.com/?user=your-username&theme=tokyonight&hide_border=true&background=1a1b27&stroke=8A2BE2&ring=FF1493&fire=00BFFF&currStreakLabel=00BFFF" />
-</p>
-
-<p align="center">
-  <img width="90%" src="https://github-readme-activity-graph.vercel.app/graph?username=your-username&theme=redical&hide_border=true&bg_color=1a1b27&color=00BFFF&line=FF1493&point=8A2BE2" />
-</p>
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/your-username/your-username/output/github-contribution-grid-snake.svg" />
-</p>
-
-> ⚙️ To activate this animated snake: add the `snake.yml` workflow below to this repo's `.github/workflows/` folder. It uses [Platane/snk](https://github.com/Platane/snk) to auto-generate and commit the SVG on a schedule.
-
-<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" width="100%">
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=your-username&theme=radical&no-frame=true&no-bg=true&margin-w=10&column=7" />
+  <img src="https://raw.githubusercontent.com/yash-patel/yash-patel/main/profile-3d-contrib/profile-night-rainbow.svg" alt="3D GitHub Contribution Graph" width="100%"/>
 </p>
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00BFFF,50:FF1493,100:8A2BE2&height=120&section=footer"/>
-</p>
+## 🎛️ Terminal Analytics
 
-<p align="center"><i>⭐️ Thanks for stopping by — feel free to explore my repos, fork something, or say hi!</i></p>
+<table align="center">
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=yash-patel&show_icons=true&theme=react&hide_border=true&bg_color=0f0c29&title_color=00BFFF&icon_color=00BFFF" />
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yash-patel&layout=compact&theme=react&hide_border=true&bg_color=0f0c29&title_color=00BFFF" />
+    </td>
+  </tr>
+</table>
+
+<!-- ================= 3D CYLINDER FOOTER ================= -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer"/>
+</p>
