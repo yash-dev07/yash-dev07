@@ -1,1 +1,25 @@
-
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="100%" height="24" style="display: block;">
+  <defs>
+    <linearGradient id="laserGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff" stop-opacity="0" />
+      <stop offset="30%" stop-color="#00f5ff" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#ff007f" stop-opacity="1" />
+      <stop offset="70%" stop-color="#a855f7" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#00f5ff" stop-opacity="0" />
+    </linearGradient>
+    <filter id="laserGlow">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <line x1="20" y1="12" x2="980" y2="12" stroke="url(#laserGrad)" stroke-width="2" filter="url(#laserGlow)" />
+  <circle cx="500" cy="12" r="4.5" fill="#ffffff" filter="url(#laserGlow)">
+    <animate attributeName="r" values="4.5;7;4.5" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="fill" values="#ffffff;#00f5ff;#ff007f;#ffffff" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <polygon points="480,12 474,8 474,16" fill="#00f5ff" opacity="0.8" />
+  <polygon points="520,12 526,8 526,16" fill="#ff007f" opacity="0.8" />
+</svg>
