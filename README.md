@@ -1,43 +1,86 @@
-<p align="center">
-  <img src="./assets/top.svg" width="100%" alt="Yash Patel - Developer Universe: BTech Student, Developer, Problem Solver"/>
-</p>
+<svg width="100%" height="320" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" style="background: radial-gradient(circle at 50% 50%, #0d0f18 0%, #05060b 100%); border-radius: 12px; box-shadow: 0 8px 32px rgba(121, 40, 202, 0.2);">
+  <defs>
+    <!-- Glow filters -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="spark-glow">
+      <feGaussianBlur />
+      
+        
+        
+      
+    </filter>
+    <!-- Gradients -->
+    <radialGradient id="saturn-grad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f39c12" />
+      <stop offset="60%" stop-color="#d35400" />
+      <stop offset="100%" stop-color="#78281f" />
+    </radialGradient>
+    <radialGradient id="jupiter-grad" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#e67e22" />
+      <stop offset="40%" stop-color="#d35400" />
+      <stop offset="80%" stop-color="#873600" />
+      <stop offset="100%" stop-color="#512e5f" />
+    </radialGradient>
+    <radialGradient id="flash-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="40%" stop-color="#3498db" />
+      <stop offset="80%" stop-color="#9b59b6" />
+      <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+  </defs>
 
-<p align="center">
-  <a href="https://github.com/yash-patel?tab=repositories"><img src="https://img.shields.io/badge/VIEW%20PROJECTS-1d9bff?style=for-the-badge&logo=github&logoColor=white" alt="View projects"/></a>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/CONTACT%20ME-0a1232?style=for-the-badge&logo=gmail&logoColor=76e4ff" alt="Contact me"/></a>
-  <a href="./Resume.pdf"><img src="https://img.shields.io/badge/DOWNLOAD%20RESUME-0a1232?style=for-the-badge&logo=adobeacrobatreader&logoColor=76e4ff" alt="Download resume"/></a>
-</p>
+  
 
-<p align="center">
-  <a href="https://github.com/yash-patel/LeetCode"><img src="https://img.shields.io/badge/◉%20LEETCODE-Problem%20Solutions-c2481f?style=flat-square&labelColor=06142b" alt="LeetCode"/></a>
-  <a href="https://github.com/yash-patel/SnapCut-AI"><img src="https://img.shields.io/badge/◉%20SNAPCUT%20AI-Background%20Remover-8d52d6?style=flat-square&labelColor=06142b" alt="SnapCut AI"/></a>
-  <a href="https://github.com/yash-patel/FloodRescue"><img src="https://img.shields.io/badge/◉%20FLOODRESCUE-AI%20Disaster%20System-21d3a3?style=flat-square&labelColor=06142b" alt="FloodRescue"/></a>
-  <a href="https://github.com/yash-patel/Dayflow-HRMS"><img src="https://img.shields.io/badge/◉%20DAYFLOW%20HRMS-HR%20Management-2a74d0?style=flat-square&labelColor=06142b" alt="Dayflow HRMS"/></a>
-  <a href="https://github.com/yash-patel/Portfolio"><img src="https://img.shields.io/badge/◉%20PORTFOLIO-My%20Website-e0761a?style=flat-square&labelColor=06142b" alt="Portfolio"/></a>
-  <a href="https://github.com/yash-patel/NPTEL-Notes"><img src="https://img.shields.io/badge/◉%20NPTEL%20NOTES-Study%20Resources-1f66c4?style=flat-square&labelColor=06142b" alt="NPTEL Notes"/></a>
-</p>
+  <!-- Starfield Layer -->
+  <g>
+    <circle class="star" cx="100" cy="60" r="1.5" />
+    <circle class="star" cx="250" cy="40" r="2" />
+    <circle class="star" cx="700" cy="80" r="1" />
+    <circle class="star" cx="650" cy="250" r="2.5" />
+    <circle class="star" cx="150" cy="270" r="1.5" />
+    <circle class="star" cx="400" cy="40" r="1.2" />
+    <circle class="star" cx="350" cy="280" r="2" />
+    <circle class="star" cx="550" cy="60" r="1.8" />
+  </g>
 
-<p align="center">
-  <img src="./assets/tech.svg" width="100%" alt="Tech stack: languages, CS concepts, databases, frameworks, tools"/>
-</p>
+  <!-- Central Scene Anchor -->
+  <g transform="translate(400, 160)">
+    
+    <!-- Shockwave / Flash on Impact -->
+    <circle class="collision-flash" cx="0" cy="0" r="60" fill="url(#flash-grad)" filter="url(#glow)" />
 
-<p align="center">
-  <img src="./assets/activity.svg" width="100%" alt="Contribution Galaxy and Activity Asteroids"/>
-</p>
+    <!-- Saturn-like Planet System (Approaching from Left) -->
+    <g class="planet-saturn">
+      <!-- Back Ring Arc -->
+      <path d="M -70 -15 C -70 20, 70 20, 70 -15" stroke="#d4ac0d" stroke-width="4" fill="none" opacity="0.6" stroke-dasharray="3 1" />
+      <!-- Planet Body -->
+      <circle cx="0" cy="0" r="38" fill="url(#saturn-grad)" filter="url(#glow)" />
+      <!-- Front Ring Arc -->
+      <path d="M 70 -15 C 70 -35, -70 -35, -70 -15" stroke="#f1c40f" stroke-width="8" stroke-linecap="round" fill="none" filter="url(#glow)" />
+    </g>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=yash-patel&show_icons=true&hide_border=true&bg_color=050816&title_color=76e4ff&text_color=9fb3c8&icon_color=ff72d2&ring_color=bb7dff&include_all_commits=true" width="49%" alt="Live GitHub stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yash-patel&layout=compact&hide_border=true&bg_color=050816&title_color=76e4ff&text_color=9fb3c8&icon_color=ff72d2" width="40%" alt="Top languages"/>
-</p>
+    <!-- Jupiter-like Planet System (Approaching from Right) -->
+    <g class="planet-jupiter">
+      <!-- Planet Body -->
+      <circle cx="0" cy="0" r="45" fill="url(#jupiter-grad)" filter="url(#glow)" />
+      <!-- Atmospheric Storm Bands -->
+      <path d="M -35 -15 Q 0 -5 35 -15" stroke="#b9770e" stroke-width="3" fill="none" opacity="0.6" />
+      <path d="M -40 10 Q 0 20 40 10" stroke="#78281f" stroke-width="4" fill="none" opacity="0.5" />
+      <path d="M -25 25 Q 0 32 25 25" stroke="#b9770e" stroke-width="2" fill="none" opacity="0.7" />
+    </g>
 
-<p align="center">
-  <img src="./assets/bottom.svg" width="100%" alt="GitHub stats and Let's Connect"/>
-</p>
+    <!-- Collision Sparks / Debris Particles -->
+    <g>
+      <circle class="debris" cx="0" cy="0" r="3" fill="#00ffff" filter="url(#spark-glow)" style="--dx: -90px; --dy: -40px;" />
+      <circle class="debris" cx="0" cy="0" r="4" fill="#ff7675" filter="url(#spark-glow)" style="--dx: 110px; --dy: -60px;" />
+      <circle class="debris" cx="0" cy="0" r="2.5" fill="#ffeaa7" filter="url(#spark-glow)" style="--dx: -70px; --dy: 70px;" />
+      <circle class="debris" cx="0" cy="0" r="3.5" fill="#a29bfe" filter="url(#spark-glow)" style="--dx: 80px; --dy: 50px;" />
+      <circle class="debris" cx="0" cy="0" r="2" fill="#55efc4" filter="url(#spark-glow)" style="--dx: -130px; --dy: 10px;" />
+      <circle class="debris" cx="0" cy="0" r="3" fill="#fab1a0" filter="url(#spark-glow)" style="--dx: 130px; --dy: -10px;" />
+    </g>
 
-<p align="center">
-  <a href="https://github.com/yash-patel"><img src="https://img.shields.io/badge/GitHub-fff?style=for-the-badge&logo=github&logoColor=050816" alt="GitHub"/></a>
-  <a href="https://www.linkedin.com/in/your-linkedin/"><img src="https://img.shields.io/badge/LinkedIn-3a9bff?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-76e4ff?style=for-the-badge&logo=gmail&logoColor=050816" alt="Email"/></a>
-  <a href="https://instagram.com/your-instagram"><img src="https://img.shields.io/badge/Instagram-ff5aa0?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
-  <a href="https://x.com/your-x"><img src="https://img.shields.io/badge/X-000?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-</p>
+  </g>
+</svg>
