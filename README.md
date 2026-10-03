@@ -1,86 +1,131 @@
-<svg width="100%" height="320" viewBox="0 0 800 320" xmlns="http://www.w3.org/2000/svg" style="background: radial-gradient(circle at 50% 50%, #0d0f18 0%, #05060b 100%); border-radius: 12px; box-shadow: 0 8px 32px rgba(121, 40, 202, 0.2);">
-  <defs>
-    <!-- Glow filters -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
-    <filter id="spark-glow">
-      <feGaussianBlur />
-      
-        
-        
-      
-    </filter>
-    <!-- Gradients -->
-    <radialGradient id="saturn-grad" cx="30%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#f39c12" />
-      <stop offset="60%" stop-color="#d35400" />
-      <stop offset="100%" stop-color="#78281f" />
-    </radialGradient>
-    <radialGradient id="jupiter-grad" cx="40%" cy="30%" r="70%">
-      <stop offset="0%" stop-color="#e67e22" />
-      <stop offset="40%" stop-color="#d35400" />
-      <stop offset="80%" stop-color="#873600" />
-      <stop offset="100%" stop-color="#512e5f" />
-    </radialGradient>
-    <radialGradient id="flash-grad" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ffffff" />
-      <stop offset="40%" stop-color="#3498db" />
-      <stop offset="80%" stop-color="#9b59b6" />
-      <stop offset="100%" stop-color="transparent" />
-    </radialGradient>
-  </defs>
+<!-- ================================================================= -->
+<!-- 🪐 COSMIC SPACE THEMED GITHUB PROFILE README 🪐 -->
+<!-- ================================================================= -->
 
-  
+<div align="center">
 
-  <!-- Starfield Layer -->
-  <g>
-    <circle class="star" cx="100" cy="60" r="1.5" />
-    <circle class="star" cx="250" cy="40" r="2" />
-    <circle class="star" cx="700" cy="80" r="1" />
-    <circle class="star" cx="650" cy="250" r="2.5" />
-    <circle class="star" cx="150" cy="270" r="1.5" />
-    <circle class="star" cx="400" cy="40" r="1.2" />
-    <circle class="star" cx="350" cy="280" r="2" />
-    <circle class="star" cx="550" cy="60" r="1.8" />
-  </g>
+  <!-- COSMIC COLLISION ANIMATED HEADER BANNER (SATURN X JUPITER) -->
+  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+    <img src="assets/cosmic-collision-header.svg" alt="Jupiter and Saturn Cosmic Collision Animation" width="100%" />
+  </a>
 
-  <!-- Central Scene Anchor -->
-  <g transform="translate(400, 160)">
-    
-    <!-- Shockwave / Flash on Impact -->
-    <circle class="collision-flash" cx="0" cy="0" r="60" fill="url(#flash-grad)" filter="url(#glow)" />
+  <br/><br/>
 
-    <!-- Saturn-like Planet System (Approaching from Left) -->
-    <g class="planet-saturn">
-      <!-- Back Ring Arc -->
-      <path d="M -70 -15 C -70 20, 70 20, 70 -15" stroke="#d4ac0d" stroke-width="4" fill="none" opacity="0.6" stroke-dasharray="3 1" />
-      <!-- Planet Body -->
-      <circle cx="0" cy="0" r="38" fill="url(#saturn-grad)" filter="url(#glow)" />
-      <!-- Front Ring Arc -->
-      <path d="M 70 -15 C 70 -35, -70 -35, -70 -15" stroke="#f1c40f" stroke-width="8" stroke-linecap="round" fill="none" filter="url(#glow)" />
-    </g>
+  <!-- DYNAMIC COSMIC TYPING HEADLINE -->
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=24&duration=3000&pause=1000&color=00F5FF&center=true&vCenter=true&multiline=false&width=700&height=50&lines=EXPLORING+THE+COSMOS+OF+SOFTWARE+ENGINEERING;ARCHITECTING+DISTRIBUTED+CELESTIAL+SYSTEMS;COLLIDING+IDEAS+INTO+SUPERNOVA+PRODUCTS;WELCOME+TO+MY+SPACE+STATION" alt="Typing SVG" />
+  </a>
 
-    <!-- Jupiter-like Planet System (Approaching from Right) -->
-    <g class="planet-jupiter">
-      <!-- Planet Body -->
-      <circle cx="0" cy="0" r="45" fill="url(#jupiter-grad)" filter="url(#glow)" />
-      <!-- Atmospheric Storm Bands -->
-      <path d="M -35 -15 Q 0 -5 35 -15" stroke="#b9770e" stroke-width="3" fill="none" opacity="0.6" />
-      <path d="M -40 10 Q 0 20 40 10" stroke="#78281f" stroke-width="4" fill="none" opacity="0.5" />
-      <path d="M -25 25 Q 0 32 25 25" stroke="#b9770e" stroke-width="2" fill="none" opacity="0.7" />
-    </g>
+  <p align="center">
+    <a href="#-"><img src="https://img.shields.io/badge/ORBITAL%20SPEED-Mach%2025.4-blueviolet?style=for-the-badge&logo=spacex&logoColor=white" alt="Orbital Speed" /></a>
+    <a href="#-"><img src="https://img.shields.io/badge/GRAVITY%20ASSIST-ENABLED-00f5ff?style=for-the-badge&logo=nasa&logoColor=black" alt="Gravity Assist" /></a>
+    <a href="#-"><img src="https://img.shields.io/badge/MISSION%20STATUS-ONLINE%20%E2%9A%A1-34d399?style=for-the-badge" alt="Status" /></a>
+  </p>
 
-    <!-- Collision Sparks / Debris Particles -->
-    <g>
-      <circle class="debris" cx="0" cy="0" r="3" fill="#00ffff" filter="url(#spark-glow)" style="--dx: -90px; --dy: -40px;" />
-      <circle class="debris" cx="0" cy="0" r="4" fill="#ff7675" filter="url(#spark-glow)" style="--dx: 110px; --dy: -60px;" />
-      <circle class="debris" cx="0" cy="0" r="2.5" fill="#ffeaa7" filter="url(#spark-glow)" style="--dx: -70px; --dy: 70px;" />
-      <circle class="debris" cx="0" cy="0" r="3.5" fill="#a29bfe" filter="url(#spark-glow)" style="--dx: 80px; --dy: 50px;" />
-      <circle class="debris" cx="0" cy="0" r="2" fill="#55efc4" filter="url(#spark-glow)" style="--dx: -130px; --dy: 10px;" />
-      <circle class="debris" cx="0" cy="0" r="3" fill="#fab1a0" filter="url(#spark-glow)" style="--dx: 130px; --dy: -10px;" />
-    </g>
+</div>
 
-  </g>
-</svg>
+<p align="center">
+  <img src="assets/cosmic-divider.svg" alt="Cosmic Divider" width="100%" />
+</p>
+
+<!-- ================= MISSION LOG TERMINAL ================= -->
+
+### 🛰️ `MISSION LOG // CELESTIAL TELEMETRY`
+
+<div align="center">
+  <img src="assets/cosmic-terminal.svg" alt="Cosmic Terminal Log" width="100%" />
+</div>
+
+<p align="center">
+  <img src="assets/cosmic-divider.svg" alt="Cosmic Divider" width="100%" />
+</p>
+
+<!-- ================= SKILL CONSTELLATIONS ================= -->
+
+### 🌌 `STELLAR CONSTELLATIONS // TECH ARSENAL`
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🪐 Core Propulsion Languages</h4>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" />
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+      </p>
+      <h4>✨ Galactic Frontend &amp; UI</h4>
+      <p>
+        <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+        <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h4>☄️ Planetary Backend &amp; Engines</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+      </p>
+      <h4>🛰️ Nebula Cloud &amp; DevOps</h4>
+      <p>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+        <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="assets/cosmic-divider.svg" alt="Cosmic Divider" width="100%" />
+</p>
+
+<!-- ================= GALACTIC TELEMETRY STATS ================= -->
+
+### 📊 `DEEP SPACE TELEMETRY // GITHUB METRICS`
+
+<div align="center">
+
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030712&title_color=00f5ff&icon_color=ff007f&text_color=e2e8f0&ring_color=00f5ff" alt="GitHub Stats" height="175" />
+  </a>
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img src="https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=030712&ring=00f5ff&fire=ff007f&currStreakLabel=00f5ff" alt="GitHub Streak" height="175" />
+  </a>
+
+  <br/><br/>
+
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=030712&title_color=00f5ff&text_color=e2e8f0" alt="Top Languages" height="165" />
+  </a>
+
+</div>
+
+<p align="center">
+  <img src="assets/cosmic-divider.svg" alt="Cosmic Divider" width="100%" />
+</p>
+
+<!-- ================= FEATURED STARSHIPS (PROJECTS) ================= -->
+
+### 🚀 `STAR SYSTEM EXPEDITIONS // FEATURED PROJECTS`
+
+```rust
+┌── [PROJECT-ALPHA] ─────────────────────────────────────────────────────────────┐
+│ 🛸 GravityForge: High-concurrency distributed vector simulation engine         │
+│ 🛠️ Rust • WebAssembly • WebGPU • Tokio                                         │
+│ 🔗 https://github.com/YOUR_GITHUB_USERNAME/gravity-forge                       │
+└────────────────────────────────────────────────────────────────────────────────┘
+
+┌── [PROJECT-BETA] ──────────────────────────────────────────────────────────────┐
+│ 🪐 Saturn-Ring-Lens: Real-time celestial trajectory & space physics dashboard  │
+│ 🛠️ Next.js • Three.js • GLSL Shaders • TailwindCSS                            │
+│ 🔗 https://github.com/YOUR_GITHUB_USERNAME/saturn-lens                         │
+└────────────────────────────────────────────────────────────────────────────────┘
